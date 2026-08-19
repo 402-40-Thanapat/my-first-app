@@ -100,11 +100,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: This l _ _ _ n is so, so sour! 🍋",
+    "ข้อ 3: This 'l _ _ _ n' is so, so sour! 🍋",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: He's addicted to his p _ _ _ e ! He always stare at it all day! 📱",
+    "ข้อ 4: He's addicted to his 'p _ _ _ e' ! He always stare at it all day! 📱",
     value=st.session_state.ans4_val,
 )
 
