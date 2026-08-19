@@ -1,4 +1,4 @@
-@st.dialog("📊 สรุปผลการเล่นเกม")
+#@st.dialog("📊 สรุปผลการเล่นเกม")
 def show_result_dialog(ans1, ans2, ans3, ans4):
     st.balloons()
     score = 0
