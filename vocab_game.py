@@ -12,6 +12,8 @@ if "ans3_val" not in st.session_state:
     st.session_state.ans3_val = ""
 if "ans4_val" not in st.session_state:
     st.session_state.ans4_val = ""
+if "game_started" not in st.session_state:
+    st.session_state.game_started = False
 
 
 # 📌 ฟังก์ชันเคลียร์ค่าเมื่อกดปุ่มเริ่มใหม่
@@ -22,7 +24,7 @@ def reset_game():
     st.session_state.ans4_val = ""  # เคลียร์ค่าช่องข้อ 4
     st.session_state.start = time.time()  # เริ่มเวลาใหม่
     st.session_state.is_ended = False  # ปิด Dialog
-
+    st.session_state.game_started = True  # ทำการเริ่มเกม
 
 # ----------------------------------------------------
 # 📌 ฟังก์ชัน MessageBox (Dialog)
